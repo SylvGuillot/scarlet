@@ -4,27 +4,38 @@
     display: line;
 }
 
+#cover img {
+    width: 12%;
+    height: 60%;
+    margin-left:5%;
+}
+
+#first_link img {
+    width: 100%;
+    height: 100%;
+    margin-left:5%;
+}
+
 
 #first_link {
     width: 30.2%;
     height: 60%;
     top: 0px;
     margin-left: 2.3%;
-    background-image: url(img/img1.jpg);
+    background-color: 
 }
 
 #second_link {
     width: 22.4%;
     height: 29.4%;
     top: 0px;
-    right: 908px;
 }
 
-#cover img {
-    width: 12%;
-    height: 60%;
-    margin-left:167px;
+#second_link img {
+    width: 100%;
+    height: 100%;
 }
+
 
 #third_link {
     width: 22.4%;
@@ -34,11 +45,21 @@
 
 }
 
+#third_link img {
+    width: 100%;
+    height: 100%;
+}
+
 #fourth_link {
     width: 22.3%;
     height: 29.4%;
     top: 0px;
     right: 166px;
+}
+
+#fourth_link img {
+    width: 100%;
+    height: 100%;
 }
 
 #fifth_link {
@@ -48,6 +69,10 @@
     right: 166px;
 }
 
+#fifth_link img {
+    width: 100%;
+    height: 100%;
+}
 
 #nav_tool {
     width: 100%;

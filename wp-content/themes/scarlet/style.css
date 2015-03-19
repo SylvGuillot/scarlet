@@ -1,0 +1,73 @@
+#cover {
+    width: 100%;
+    height: 60%;
+    display: line;
+}
+
+
+#first_link {
+    width: 30.2%;
+    height: 60%;
+    top: 0px;
+    margin-left: 2.3%;
+    background-image: url(img/img1.jpg);
+}
+
+#second_link {
+    width: 22.4%;
+    height: 29.4%;
+    top: 0px;
+    right: 908px;
+}
+
+#cover img {
+    width: 12%;
+    height: 60%;
+    margin-left:167px;
+}
+
+#third_link {
+    width: 22.4%;
+    height: 30.7%;
+    top: 196px;
+    right: 908px;
+
+}
+
+#fourth_link {
+    width: 22.3%;
+    height: 29.4%;
+    top: 0px;
+    right: 166px;
+}
+
+#fifth_link {
+    width: 22.3%;
+    height: 30.7%;
+    top: 196px;
+    right: 166px;
+}
+
+
+#nav_tool {
+    width: 100%;
+    height: 14.4%;
+}
+
+#heading {
+    width: 100%;
+    height: 14.4%;
+}
+
+
+li {
+    list-style: none;
+    width: 10%;
+    float: left;
+    margin-left: 2%;
+}
+
+ul {
+    width: 90%;
+    margin: auto;
+}

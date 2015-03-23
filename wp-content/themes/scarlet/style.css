@@ -19,7 +19,7 @@
 
 #first_link {
     width: 30.2%;
-    height: 60%;
+    max-height: 100%;
     top: 0%;
     margin-left: 2.3%;
     float: left;
@@ -29,11 +29,12 @@
     width: 100%;
     height: 100%;
     margin-left:5%;
+    overflow: hidden;
 }
 
 #second_link {
     width: 22.4%;
-    height: 30%;
+    max-height: 50%;
     top: 0%;
     left: 32.5%;
     float: left;
@@ -42,12 +43,13 @@
 #second_link img {
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 
 #third_link {
     width: 22.4%;
-    height: 30%;
+    max-height: 50%;
     top: 30%;
     left: 32.5%;
     float: left;
@@ -56,32 +58,32 @@
 #third_link img {
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 #fourth_link {
     width: 22.4%;
-    height: 30%;
+    max-height: 30%;
     top: 0%;
     right: 166px;
     float: left;
 }
 
 #fourth_link img {
-    width: 100%;
-    height: 100%;
+    width:100%;
+    overflow: hidden;
 }
 
 #fifth_link {
     width: 22.4%;
-    height: 30%;
+    max-height: 30%;
     top: 30%;
     right: 166px;
     float: left;
 }
 
 #fifth_link img {
-    width: 100%;
-    height: 100%;
+    overflow: hidden;
 }
 
 #nav_tool {

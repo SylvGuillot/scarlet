@@ -55,16 +55,10 @@
 <?php }} ?>    
     <div class="header-content-wrapper">
     <div class="header-content">
-<?php if ( $happenstance_options_db['happenstance_logo_url'] == '' ) { ?>
-      <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></p>
-<?php } else { ?>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="header-logo" src="<?php echo esc_url($happenstance_options_db['happenstance_logo_url']); ?>" alt="<?php bloginfo( 'name' ); ?>" /></a>
-<?php } ?>
-<?php if ( $happenstance_options_db['happenstance_display_site_description'] != 'Hide' ) { ?>
-      <p class="site-description"><?php bloginfo( 'description' ); ?></p>
-<?php } ?>
+
+      <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="wp-content/themes/happenstance/img/SunRise2.png"></a></p>
+
 <?php if ( $happenstance_options_db['happenstance_display_search_form'] != 'Hide' && !is_page_template('template-landing-page.php') ) { ?>
-<?php get_search_form(); ?>
 <?php } ?>
     </div>
     </div>

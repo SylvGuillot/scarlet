@@ -18,7 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 }    
 h1, h2, h3, h4, h5, h6 {
-  font-family: Oswald, Arial, Helvetica, sans-serif;
+  font-family: Raleway;
   -ms-word-wrap: break-word;
   word-wrap:     break-word;
   line-height: 120%;
@@ -29,23 +29,23 @@ h1 {
   font-size: 27px;  
 }
 h2 {
-  color: #222222;
+  color: #b82c24;
   font-size: 21px;  
 }
 h3 {
-  color: #333333;
+  color: #dd2e14;
   font-size: 18px;  
 }
 h4 {
-  color: #444444;
+  color: #ea5a31;
   font-size: 16px;  
 }
 h5 {
-  color: #555555;
+  color: #f6b321;
   font-size: 14px;  
 }
 h6 {
-  color: #666666;
+  color: #fbbe38;
   font-size: 13px;  
 }
 p, ul, ol, li, dl, address {
@@ -91,7 +91,7 @@ blockquote cite {
 	text-transform: uppercase;
 }
 a {
-  color: #169fe6;
+  color: #f6b321;
   text-decoration: underline;           
 }
 a:hover {
@@ -240,7 +240,7 @@ a img.aligncenter {
 body {
   background: #dedede;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;  
+  font-family: Montserrat;  
   line-height: 150%; 
 }
 #container {  
@@ -336,7 +336,7 @@ body .pattern {
   width: 1114px;               
 }
 .site-title { 
-  font-family: Oswald, Arial, Helvetica, sans-serif;
+  font-family: Raleway;
   font-size: 48px;
   font-weight: bold;  
   line-height: 110%;
@@ -348,7 +348,7 @@ body .pattern {
 }
 .site-description { 
   color: #888888;
-  font-family: Oswald, Arial, Helvetica, sans-serif;
+  font-family: Raleway;
   font-size: 20px;
   line-height: 120%;
   margin: 6px 0 0; 
@@ -358,13 +358,18 @@ body .pattern {
   z-index: 50;        
 }
 .site-title a {
-  color: #169fe6;
+  color: #cd2121;
   text-decoration: none;
   -webkit-transition: color 1s ease;
      -moz-transition: color 1s ease;
        -o-transition: color 1s ease;
       -ms-transition: color 1s ease;
-          transition: color 1s ease;           
+          transition: color 1s ease;  
+}
+
+.site-title a img {
+    width:300px;
+    height:auto   
 }
 .site-title a:hover {
   color: black;                    
@@ -396,8 +401,8 @@ body .pattern {
 
 /* header menu */
 .menu-box-wrapper {
-  background: #333333;
-  border-bottom: 2px solid #169fe6;
+  background: #cd2121;
+  border-bottom: 2px solid #ea5a31;
   float: left;
   position: relative;
   width: 100%;
@@ -412,7 +417,7 @@ body .pattern {
   z-index: 500;          
 }
 .menu-box .link-home {
-  border-left: 1px solid #535353;
+  border-left: 1px solid #ea5a31;
   color: white;
   float: left;
   font-family: ElegantIcons !important;
@@ -430,10 +435,10 @@ body .pattern {
   z-index: 100;
 }
 .menu-box a {
-	border-right: 1px solid #535353;
+	border-right: 1px solid #ea5a31;
   color: white;
   display: block;
-	font-family: Oswald, Arial, Helvetica, sans-serif;
+	font-family: Monrserrat;
   font-size: 14px;        
   height: 44px;
   line-height: 44px;
@@ -470,7 +475,7 @@ body .pattern {
 }
 .menu-box ul ul {
 	background: #ededed;
-  border-top: 2px solid #169fe6;
+  border-top: 2px solid #cd2121;
   display: none;
 	padding: 0;
   position: absolute;
@@ -518,7 +523,7 @@ body .pattern {
 #header .menu-box .current_page_item > a,
 #header .menu-box .current-page-ancestor > a,
 .home #header .menu-box .link-home {
-  background-color: #169fe6;
+  background-color: #cd2121;
 }
 #header .menu-box .sub-menu .current-menu-item > a,
 #header .menu-box .sub-menu .current-menu-ancestor > a,
@@ -848,7 +853,7 @@ body .pattern {
   margin: 0 0 7px;            
 }
 .post-entry .post-entry-headline a {
-  color: #169fe6;
+  color: #cd2121;
   text-decoration: none;  
   -webkit-transition: color 1s ease;
      -moz-transition: color 1s ease;
@@ -876,7 +881,7 @@ body .pattern {
           transition: background-color 1s ease;                             
 }
 .post-entry .read-more-button:hover {
-  background-color: #169fe6;                                    
+  background-color: #cd2121;                                    
 }
 .format-status .post-entry-content p {
   font-style: italic;
@@ -925,7 +930,7 @@ body .pattern {
   margin: 0 0 4px;            
 }
 .grid-entry .grid-entry-headline a {
-  color: #169fe6;
+  color: #cd2121;
   text-decoration: none;
   -webkit-transition: color 1s ease;
      -moz-transition: color 1s ease;
@@ -991,7 +996,7 @@ body .pattern {
           transition: background-color 1s ease;                            
 }
 .grid-entry .read-more-button:hover {
-  background-color: #169fe6;                                    
+  background-color: #cd2121;                                    
 }
 
 
@@ -1008,7 +1013,7 @@ body .pattern {
 .sidebar-widget .sidebar-headline {
   background: left 50% repeat-x url(images/pattern-sidebar.png);
   color: #333333;
-  font-family: Oswald, Arial, Helvetica, sans-serif; 
+  font-family: Montserrat; 
   font-size: 19px;
   margin: 0 0 5px;
   position: relative;                                 
@@ -1047,7 +1052,7 @@ body .pattern {
   line-height: 200%;                     
 }  
 .sidebar-widget a {
-  color: #169fe6;
+  color: #cd2121;
   text-decoration: underline;
   -webkit-transition: color 1s ease;
      -moz-transition: color 1s ease;
@@ -1116,7 +1121,7 @@ body .pattern {
 #footer .footer-widget .footer-headline {
   background: left 50% repeat-x url(images/pattern-footer.png);
   color: white;
-  font-family: Oswald, Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
   font-size: 19px;
   line-height: 100%;
   margin-bottom: 8px;                                 
@@ -1248,7 +1253,7 @@ input[type="reset"] {
 }
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: #169fe6;                    
+  background-color: #cd2121;                    
 }
 #searchform .searchform-wrapper {
   height: 31px;
@@ -1278,7 +1283,7 @@ input[type="reset"]:hover {
   width: 96%;              
 }
 #searchform .searchform-wrapper .send {
-  background-color: #6abfec;
+  background-color: #fbbe38;
   border: none;
   color: white;
   cursor: pointer;
@@ -1301,7 +1306,7 @@ input[type="reset"]:hover {
           transition: background-color 1s ease;
 }
 #searchform .send:hover {
-  background-color: #169fe6;
+  background-color: #cd2121;
 }
 
 
@@ -1586,10 +1591,10 @@ input[type="reset"]:hover {
 @media print {
 	html body {
     background: none !important; 
-    font-family: Arial, Helvetica, sans-serif !important;        
+    font-family: Montserrat !important;        
 }
   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { 
-    font-family: Arial, Helvetica, sans-serif !important;        
+    font-family: Montserrat !important;        
 }
   #wrapper #container-shadow {  
     -webkit-box-shadow: none !important;
@@ -1598,7 +1603,7 @@ input[type="reset"]:hover {
     background: white !important;
 }
   h1, h2, h3, h4, h5, h6 { 
-    font-family: Arial, Helvetica, sans-serif !important;        
+    font-family: Raleway !important;        
 }
   #wrapper-footer,
   #header,

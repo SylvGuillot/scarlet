@@ -1,0 +1,25 @@
+.cover {
+    max-height: 30%;
+    width: 100%;
+    display: line;
+}
+
+
+
+.link {
+    max-height: 40%;
+}
+
+#first_link {
+    width: 100%;
+    height: 50%;
+}
+
+
+#first_link img{
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    overflow-y: hidden;
+}
+

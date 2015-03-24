@@ -13,7 +13,7 @@ Text Domain: happenstance
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	border: none;
-  margin: 0;
+    margin: 0;
 	padding: 0;
 	vertical-align: baseline;
 }    
@@ -245,7 +245,7 @@ body {
 }
 #container {  
   margin: 0 auto;
-  max-width: 1170px;
+  max-width: 100%;
   position: relative;
   width: 100%; 
 }
@@ -267,7 +267,7 @@ body {
 }     
 #wrapper #main-content {
   padding: 28px 28px 10px;
-  width: 1114px;              
+  width: 95%;              
 }
 #content {
   float: left;
@@ -281,7 +281,7 @@ body {
 #sidebar {
   float: right;
   margin: 0 0 0 28px;
-  width: 352px;         
+  width: 25%;         
 }
 .scroll-top {
   border: 1px solid #111111;
@@ -329,23 +329,22 @@ body .pattern {
 /* header
 -------------------------------------------------------------- */
 
+
 .header-content {
-  float: left;
-  padding: 35px 28px;
   position: relative; 
-  width: 1114px;               
+  width: 100%;  
+  height: 470px;
 }
-.site-title { 
-  font-family: Raleway;
-  font-size: 48px;
-  font-weight: bold;  
-  line-height: 110%;
-  margin: 0;
-  max-width: 880px; 
-  position: relative;
+
+.site-logo { 
+  position: absolute;
   width: 100%;
-  z-index: 50;       
+  z-index: 50;
+  text-align: center;
+  height: 100%;
+  line-height: 780px;
 }
+
 .site-description { 
   color: #888888;
   font-family: Raleway;
@@ -357,7 +356,8 @@ body .pattern {
   width: 100%;
   z-index: 50;        
 }
-.site-title a {
+
+.site-logo a {
   color: #cd2121;
   text-decoration: none;
   -webkit-transition: color 1s ease;
@@ -367,13 +367,18 @@ body .pattern {
           transition: color 1s ease;  
 }
 
-.site-title a img {
-    width:300px;
-    height:auto   
+.site-logo a img {
+    width:20%;
+    height:auto; 
+    position: relative;
+    margin: auto;
+    z-index: 1000;
+    
 }
-.site-title a:hover {
+.site-logo a:hover {
   color: black;                    
 }
+
 .header-logo {
   clear: both; 
   display: block;
@@ -383,6 +388,15 @@ body .pattern {
   position: relative;
   width: auto;             
 }
+
+.slide{
+    width: 100%;
+    height: auto;  
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+}
+
 .page-template-template-landing-page-php .site-title,
 .page-template-template-landing-page-php .site-description,
 .page-template-template-landing-page-php .header-logo {
@@ -536,7 +550,7 @@ body .pattern {
   display: none;
 } 
 #wrapper .sticky-nav {
-  max-width: 1170px;
+  max-width: 100%;
   position: fixed;
   top: 0;
   z-index: 600;
@@ -1448,12 +1462,12 @@ input[type="reset"]:hover {
 
 @media screen and (max-width: 1170px) {
   body #container {
-    max-width: 1012px;
+    max-width: 100%;
 }
   html #wrapper #main-content,
   body .header-content,
   body .menu-box, body #footer {
-    width: 956px;
+    width: 95%;
 }
   body .site-title,
   body .site-description,
@@ -1461,7 +1475,7 @@ input[type="reset"]:hover {
     max-width: 740px;              
 }
   html #wrapper .sticky-nav {
-    max-width: 1012px;
+    max-width: 100%;
 }
   body #content {
     width: 628px;
@@ -1476,12 +1490,12 @@ input[type="reset"]:hover {
 
 @media screen and (max-width: 1012px) {
   #wrapper #container {
-    max-width: 90%;
+    max-width: 100%;
     width: 90%;                         
 }
   #wrapper #container #main-content {
     padding: 28px 5% 10px;
-    width: 90%;              
+    width: 100%;              
 }
   #wrapper #content,
   #wrapper .top-navigation ul {
@@ -1499,7 +1513,7 @@ input[type="reset"]:hover {
   #wrapper .header-content {
     float: left !important;
     padding: 35px 5%;
-    width: 90%;               
+    width: 100%;               
 }
   #wrapper .site-title,
   #wrapper .site-description,
@@ -1520,7 +1534,7 @@ input[type="reset"]:hover {
     width: 100%;          
 }
   #wrapper #header .sticky-nav {
-    max-width: 90%;
+    max-width: 100%;
 } 
   #wrapper .menu-box .link-home {
     display: none;                                
@@ -1551,7 +1565,7 @@ input[type="reset"]:hover {
   #wrapper #container #footer {
     background-image: none;
     padding: 35px 5% 10px; 
-    width: 90%;                  
+    width: 100%;                  
 }
   #footer .footer-widget-area {
     margin: 0;

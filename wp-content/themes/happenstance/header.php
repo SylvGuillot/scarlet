@@ -56,9 +56,16 @@
     <div class="header-content-wrapper">
     <div class="header-content">
 
-      <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="wp-content/themes/happenstance/img/SunRise2.png"></a></p>
+<div class="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="wp-content/themes/happenstance/img/SunRise4.png"></a></div>
 
 <?php if ( $happenstance_options_db['happenstance_display_search_form'] != 'Hide' && !is_page_template('template-landing-page.php') ) { ?>
+
+<div class="slide">
+<?php 
+    echo do_shortcode("[metaslider id=18]"); 
+?>
+</div>
+
 <?php } ?>
     </div>
     </div>

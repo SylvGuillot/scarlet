@@ -424,7 +424,7 @@ div.header-content::after, div.slide::after {
   z-index: 500;          
 }
 .menu-box .link-home {
-  border-left: 1px solid #ea5a31;
+  border-left: 1px solid #b72d25;
   color: white;
   float: left;
   font-family: ElegantIcons !important;
@@ -442,7 +442,7 @@ div.header-content::after, div.slide::after {
   z-index: 100;
 }
 .menu-box a {
-	border-right: 1px solid #ea5a31;
+	border-right: 1px solid #b72d25;
   color: white;
   display: block;
 	font-family: Monrserrat;
@@ -455,7 +455,7 @@ div.header-content::after, div.slide::after {
 }
 .menu-box a:hover,
 .menu-box :hover > a {
-  background-color: black;
+  background-color: #f6b320;
   -webkit-transition: background-color 1s ease;
      -moz-transition: background-color 1s ease;
        -o-transition: background-color 1s ease;
@@ -482,7 +482,7 @@ div.header-content::after, div.slide::after {
 }
 .menu-box ul ul {
 	background: #ededed;
-  border-top: 2px solid #cd2121;
+  border-top: 2px solid #b72d25;
   display: none;
 	padding: 0;
   position: absolute;
@@ -1565,8 +1565,8 @@ display: none;
     display: none;
 }
   .js .selectnav {
-    background: #333333;
-    border: 1px solid black;
+    background: #b72d25;
+    border: 1px solid #b72d25;
     color: white;
     display: block;
     float: left;

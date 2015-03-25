@@ -74,3 +74,9 @@ div.artist_thumbnail {
 	top: 0;
 	width: 100%;
 }
+
+#slider {
+    position: absolute;
+    margin: auto;
+
+}

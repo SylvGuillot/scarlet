@@ -1,26 +1,5 @@
 <?php get_header (); ?>
-<?php
-global $musique;
-$slider = $musique['diaporama-select'];
-?>
-<div id="slider" class="row">
-	<div class="col-md-12">
-	<?php
-	if ($slider == 'meta_slider') {
-		get_template_part('templates/home/meta','slider');
-	}
-	else if($slider == 'bx_slider') {
-		get_template_part('templates/home/bx','slider');
-	}
-	else if($slider == 'flex_slider') {
-		get_template_part('templates/home/flex','slider');
-	}
-	else if($slider == 'musique_slider') {
-		get_template_part('templates/home/musique','slider');
-	}
-	?>
-	</div>
-</div>
+
 <div id="contenu" class="row">
 	<div class="col-md-8">
 		<div class="row">

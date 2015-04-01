@@ -56,7 +56,7 @@
     <div class="header-content-wrapper">
     <div class="header-content">
 
-<div class="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="wp-content/themes/happenstance/img/SunRise3.png"></a></div>
+<div class="site-logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('template_url'); ?>/img/SunRise3.png"></a></div>
 
 <?php if ( $happenstance_options_db['happenstance_display_search_form'] != 'Hide' && !is_page_template('template-landing-page.php') ) { ?>
 
@@ -90,4 +90,9 @@
   </header> <!-- end of header -->
   <div id="wrapper-content">
   <div id="main-content">
+  
+<?php if ( is_front_page() ) { ?>
+  <div id="content-accueil">
+<?php } else { ?>  
   <div id="content">
+<?php } ?>

@@ -5,6 +5,7 @@ Template Name: Media
 ?>
 <?php get_header(); ?>
         
+  <div id="content">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div class="content-headline">
       <h1 class="entry-headline"><span class="entry-headline-text"><?php the_title(); ?></span></h1>

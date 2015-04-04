@@ -91,8 +91,3 @@
   <div id="wrapper-content">
   <div id="main-content">
   
-<?php if ( is_front_page() ) { ?>
-  <div id="content-accueil">
-<?php } else { ?>  
-  <div id="content">
-<?php } ?>

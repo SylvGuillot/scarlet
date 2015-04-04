@@ -281,6 +281,18 @@ body {
   width: 100%;         
 }
 
+#content-projet {
+  float: left;
+  margin: 0;
+  width: 100%;         
+}
+
+#content-voiture {
+  float: left;
+  margin: 0;
+  width: 100%;         
+}
+
 
 .page-template-template-full-width-php #container #content,
 .page-template-template-landing-page-php #container #content {
@@ -599,6 +611,25 @@ div.header-content::after, div.slide::after {
   margin: 0 0 20px;
   width: 100%;                  
 }
+
+.content-headline-equipe img {
+  margin: auto;
+  max-width: 50%;                 
+}
+
+.entry-content-equipe p {
+  text-align: center;                
+}
+
+.content-headline-partenaire img {
+  margin: auto;
+  max-width: 50%;
+}
+
+.entry-content-partenaire p {
+  text-align: center;              
+}
+
 .entry-headline {
   background: left 50% repeat-x url(images/pattern-headline.png);
   color: black;
@@ -608,6 +639,29 @@ div.header-content::after, div.slide::after {
   position: relative;
   z-index: 50;                                  
 }  
+
+.entry-headline-equipe {
+/*  background: left 50% repeat-x url(images/pattern-headline.png);  */ /* image rayure côté titre*/ 
+  color: black;
+  font-size: 27px;
+  line-height: 100%;
+  margin: 0 0 3px;
+  position: relative;
+  z-index: 50;   
+  text-align: center;
+}  
+
+.entry-headline-partenaire {
+/*  background: left 50% repeat-x url(images/pattern-headline.png);  */ /* image rayure côté titre*/ 
+  color: black;
+  font-size: 27px;
+  line-height: 100%;
+  margin: 0 0 3px;
+  position: relative;
+  z-index: 50;   
+  text-align: center;
+}  
+
 .blog .entry-headline,
 .home-latest-posts .entry-headline {
   margin-bottom: 25px;                                   

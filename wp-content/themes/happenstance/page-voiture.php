@@ -4,63 +4,70 @@ Template Name: Voiture
 */
 ?>
 <?php get_header(); ?>
- 
- 
-  <div id="content-projet">
+
+  <div id="content-voiture">
      <div class="content-headline">
       <h1 class="entry-headline"><span class="entry-headline-text"><?php the_title(); ?></span></h1>
 
     </div>
+    
+    
+<?php if (pll_current_language() == "fr"): ?>
 
-    <div class="entry-content">
-
-<div class="p1projet .col-xs-12 .col-md-12">
-    <div class="img1projet .col-xs-12 .col-md-4">
-        <img src="<?php bloginfo('template_url'); ?>/img/SunRise2.png">
+<div class="p1voiture">
+   <h2>La voiture</h2>
+    <div class="img1voiture">
+        <img src="<?php bloginfo('template_url'); ?>/img/p1.jpg">
     </div>
     
-    <div class="texte1projet .col-xs-12 .col-md-8">
-       <h1>En quoi consiste ce projet</h1>
-        <p> Le projet Scarlet s’inscrit dans le cadre de la formation Génie Électrique et Informatique Industrielle (GEII) visant à répondre aux attentes du monde industriel actuel et futur. <br/> Sa réalisation est assurée par les élèves du département GEII de la filière Énergie Électrique et Énergie Renouvelable de l'IUT1 Joseph Fourier. <br/> Une équipe de neuf élèves, encadrée par 5 professeurs, travaille actuellement sur le projet de voiture solaire, et ce pour une durée de deux ans. Réalisation du moteur, monitoring, panneaux et batteries sont donc à la charge des plus jeunes sous le regard expert des professeurs.  </p>
+    <div class="texte1voiture">
+       
+       <p> Scarlet réalise ses prototypes actuels dans un atelier de l’IUT où matériaux et documents sont à leur disposition. A raison de 6h réglementaires par semaine, l’équipe prend aussi sur son temps libre afin de faire avancer efficacement le projet. <br/> L’arrivée de nouvelles carcasses soulève toujours un vent d’excitation, car elle permet de s'entraîner, récupérer, bricoler, améliorer, réparer… bref de quoi basculer chaque jour un peu plus dans l’aspect pratique du projet.
+ </p>
     </div>
 </div>
-    
-<div class="p2projet .col-xs-12 .col-md-12">
-    <div class="img2projet .col-xs-12 .col-md-4 ">
-        <img src="<?php bloginfo('template_url'); ?>/img/p2.jpg">
+
+
+<?php else: ?>
+
+<div class="p1voiture">
+   <h2>The car</h2>
+    <div class="img1voiture">
+        <img src="<?php bloginfo('template_url'); ?>/img/p1.jpg">
     </div>
     
-    <div class="texte2projet .col-xs-12 .col-md-8">
-       <h1> La réalisation </h1>
-        <p> Pour réaliser à bien ce projet, certaines tâches sont capitales à la réalisation de la voiture. Voici un aperçu du travail à effectuer : 
-            <br/>Définition de la structure de la carrosserie
-            <br/>Installation du pack batterie
-            <br/>Dimension des panneaux photovoltaïques pour une puissance optimale
-            <br/>Mesures et tests de pilotage sur le moteur et le variateur
-            <br/>Monitoring pour mesure de vitesse, consommation de la batterie, affichage sur tablette
-  </p>
+    <div class="texte1voiture">
+       
+       <p> The current prototypes are manufactured in a workshop at the IUT, where materials and documents are available. At a rate of 6 hours per weeks, members of the team must take on their free time to make the project happen. <br/> The arrival of new car wrecks always causes a lot of excitment, because it allows the team to tinker, to fix, to improve… Which means to enter each day a little more in the practical aspect of the project. </p>
+    </div>
+</div>
+
+
+<?php endif; ?>
+
+
+
+<?php $loop = new WP_Query( array( 'post_type' => 'voitures') );
+    if ( $loop->have_posts() ) :
+        while ( $loop->have_posts() ) : $loop->the_post(); ?>
         
+    <div class="content-headline-voiture">
+      <h1 class="entry-headline-voiture "><span class="entry-headline-text"><?php the_title(); ?></span></h1>
+<?php happenstance_get_breadcrumb(); ?>
     </div>
-</div>
-    
-<div class="p3projet .col-xs-12 .col-md-12">
-    <div class="img3projet .col-xs-12 .col-md-4">
-        <img src="<?php bloginfo('template_url'); ?>/img/p3.jpg">
-    </div>
-    
-    <div class="texte3projet .col-xs-12 .col-md-8">
-       <h1>Le but</h1>
-        <p> Le but ultime de ce projet est bien entendu à participer au WSC mais ce n’est pas la seule motivation de l’équipe. <br/> Scarlet vise à promouvoir sa section et son projet pour que les promotions futures puissent contribuer à la notoriété de l’IUT et reprendre le flambeau. Participer à un maximum de compétition ne peut ainsi qu’être bénéfique pour approfondir les connaissances des étudiants.</p>
-        
-    </div>
-</div>
-    
-
+    <div class="image-voiture">
+<?php happenstance_get_display_image_page(); ?>
+   </div>
+    <div class="entry-content-voiture">
+<?php the_content(); ?>
+<?php wp_link_pages( array( 'before' => '<p class="page-link"><span>' . __( 'Pages:', 'happenstance' ) . '</span>', 'after' => '</p>' ) ); ?>  
+<?php endwhile; endif; ?>
     </div>   
   </div> <!-- end of content -->
-
+  <div class="sidebar-voiture">
 <?php if ($happenstance_options_db['happenstance_display_sidebar'] != 'Hide') { ?>
 
+</div>
 <?php } ?>
 
 <?php get_footer(); ?>

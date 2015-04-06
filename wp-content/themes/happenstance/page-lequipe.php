@@ -11,11 +11,13 @@ Template Name: Equipe
 
     </div>
     
-    
-<div class="p1equipe">
+
+<?php if (pll_current_language() == "fr"): ?>
+
+      <div class="p1equipe">
    <h2>Les origines</h2>
     <div class="img1equipe">
-        <img src="<?php bloginfo('template_url'); ?>/img/p1.jpg">
+        <img src="<?php bloginfo('template_url'); ?>/img/SunRise3.2.png">
     </div>
     
     <div class="texte1equipe">
@@ -24,6 +26,24 @@ Template Name: Equipe
  </p>
     </div>
 </div>
+
+<?php else: ?>
+
+      <div class="p1equipe">
+   <h2>The origins</h2>
+    <div class="img1equipe">
+        <img src="<?php bloginfo('template_url'); ?>/img/SunRise3.2.png">
+    </div>
+    
+    <div class="texte1equipe">
+       
+       <p> The team has been set up after a competition in Le Bourget du Lac in 2014. At this moment, the team consisted in 5 people, who where soon joined by 4 other students when the team decided to participate in the World Solar Challenge of 2017.<br/> Why “Scarlet”? Simply because the name refers to the nature of the vehicle: Solar car electric, and is as well a reference to 50’s pin-up drawn on vehicles. Furthermore, the color Scarlet suits well with the concept of a race in the Australian desert. </p>
+    </div>
+</div>
+
+<?php endif; ?>
+
+
 
 
 <?php $loop = new WP_Query( array( 'post_type' => 'membres') );

@@ -11,6 +11,9 @@ Template Name: Partenaire
 
     </div>
     
+
+
+<?php if (pll_current_language() == "fr"): ?>
     
 <div class="p1partenaire">
 
@@ -21,6 +24,21 @@ Template Name: Partenaire
         <h2>Rejoignez-nous ! <a href="http://localhost/scarlet/contact/">Cliquez ici !</a></h2>
     </div>
 </div>
+
+<?php else: ?>
+    
+<div class="p1partenaire">
+
+    <div class="texte1partenaire">
+        <p> Scarlet is actively seeking new partners who want to get involved in a project that is both social and technological. <br/> This ambitious project to make the car of tomorrow 100% solar and environmentally friendly, and more importantly for the general public, can also be YOUR project. <br/></p>
+        <h2>Take part in building the world of tomorrow!</h2>
+        <p> <br/> To learn more about the project and your tax benefits, thank you for contacting us on the form provided for this purpose.</p>
+        <h2> Join us ! <a href="http://localhost/scarlet/contact/"> Click here !</a></h2>
+    </div>
+</div>
+
+<?php endif; ?>
+
 
 
 <?php $loop = new WP_Query( array( 'post_type' => 'partenaire') );

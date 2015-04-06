@@ -4,7 +4,8 @@ Template Name: Projet
 */
 ?>
 <?php get_header(); ?>
- 
+<div id="wrapper-content">
+ <div id="main-content">
  
   <div id="content-projet">
      <div class="content-headline">

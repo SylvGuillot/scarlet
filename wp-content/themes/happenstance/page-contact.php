@@ -4,7 +4,8 @@ Template Name: Contact
 */
 ?>
 <?php get_header(); ?>
-        
+<div id="wrapper-content">
+ <div id="main-content">
   <div id="content-contact">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div class="content-headline">

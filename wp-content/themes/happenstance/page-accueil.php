@@ -5,7 +5,8 @@ Template Name: Accueil
 ?>
 <?php get_header(); ?>
  
- 
+ <div id="wrapper-content">
+ <div id="main-content">
   <div id="content-accueil">
      <div class="content-headline">
       <h1 class="entry-headline"><span class="entry-headline-text"><?php the_title(); ?></span></h1>

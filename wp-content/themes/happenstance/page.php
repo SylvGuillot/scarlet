@@ -1,22 +1,38 @@
 <?php
 /**
- * The page template file.
+ * The post template file.
  * @package HappenStance
  * @since HappenStance 1.0.0
 */
 get_header(); ?>
-  <div id="content">
+
+<div id="wrapper-content">
+ <div id="main-content-actualité">
+  
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-   
+<?php if ( !has_post_format('aside') && !has_post_format('status') ) { ?>
     <div class="content-headline">
       <h1 class="entry-headline"><span class="entry-headline-text"><?php the_title(); ?></span></h1>
 <?php happenstance_get_breadcrumb(); ?>
     </div>
-<?php happenstance_get_display_image_page(); ?>
+<?php } ?>
+<?php happenstance_get_display_image_post(); ?>
+<?php if ( $happenstance_options_db['happenstance_display_meta_post'] != 'Hide' ) { ?>
+    <p class="post-meta">
+      <span class="post-info-date"><i class="icon_clock_alt" aria-hidden="true"></i><?php echo get_the_date(); ?></span>
+    </p>
+    <div class="post-info">
+<?php if ( has_tag() ) { ?>
+      <p class="post-tags"><?php the_tags( '<span class="post-info-tags"><i class="icon_tag_alt" aria-hidden="true"></i>', ', ', '</span>' ); ?></p>
+<?php } ?>
+    </div>
+<?php } ?>
     <div class="entry-content-actualité">
 <?php the_content(); ?>
-<?php wp_link_pages( array( 'before' => '<p class="page-link"><span>' . __( 'Pages:', 'happenstance' ) . '</span>', 'after' => '</p>' ) ); ?>   
+<?php wp_link_pages( array( 'before' => '<p class="page-link"><span>' . __( 'Pages:', 'happenstance' ) . '</span>', 'after' => '</p>' ) ); ?>
 <?php endwhile; endif; ?>
+<?php if ( $happenstance_options_db['happenstance_next_preview_post'] != 'Hide' ) { ?>
+<?php } ?>
     </div>   
   </div> <!-- end of content -->
 <?php if ($happenstance_options_db['happenstance_display_sidebar'] != 'Hide') { ?>

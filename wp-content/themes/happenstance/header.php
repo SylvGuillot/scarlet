@@ -88,6 +88,5 @@
   </div>
 <?php }} ?>
   </header> <!-- end of header -->
-  <div id="wrapper-content">
-  <div id="main-content">
+
   

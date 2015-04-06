@@ -4,7 +4,9 @@ Template Name: Media
 */
 ?>
 <?php get_header(); ?>
-        
+ 
+<div id="wrapper-content">
+ <div id="main-content">  
   <div id="content-media">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div class="content-headline">

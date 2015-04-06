@@ -266,32 +266,352 @@ body {
   width: 100%;        
 }     
 #wrapper #main-content {
-  padding: 28px 28px 10px;
-  width: 95%;              
+  width: 100%;              
 }
 #content {
-  float: left;
   margin: 0;
-  width: 734px;         
+    width: 100%;
+/*  width: 734px;         */
 }
 
 #content-accueil {
-  float: left;
   margin: 0;
   width: 100%;         
+}
+
+.p1 {
+    position: relative;
+    width: 100%;
+    height: 390px;
+
+}
+
+.img1 {
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.texte1 h2 {
+    position: relative;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 27px;
+}
+
+.p2 {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #b82c24;
+}
+
+.img2 {
+    float: right;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: auto;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.texte2 h1 {
+    position: relative;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+.texte2 p {
+    position: relative;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+
+.p3 {
+    position: relative;
+    width: 100%;
+    height: 285px;
+}
+
+.img3 {
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.texte3 h1 {
+    position: relative;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.texte3 p {
+    position: relative;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.p4 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #b82c24;
+}
+
+.img4 {
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: auto;
+    width: 400px;
+    margin-top: 100px;
+}
+
+.texte4 h1 {
+    position: relative;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+.texte4 p {
+    position: relative;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+.entry-content-actualité{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.entry-content-projet{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #content-projet {
-  float: left;
   margin: 0;
   width: 100%;         
 }
 
-#content-voiture {
-  float: left;
-  margin: 0;
-  width: 100%;         
+.p1projet {
+    position: relative;
+    width: 100%;
+    height: 500px;
+
 }
+
+.img1projet {
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.texte1projet h1 {
+    position: relative;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.texte1projet p {
+    position: relative;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.p2projet {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #b82c24;
+}
+
+.img2projet {
+    float: right;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: auto;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.texte2projet h1 {
+    position: relative;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+.texte2projet p {
+    position: relative;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+
+.p3projet {
+    position: relative;
+    width: 100%;
+    height: 285px;
+}
+
+.img3projet {
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.texte3projet h1 {
+    position: relative;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.texte3projet p {
+    position: relative;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.content-headline-partenaire img {
+  margin: auto;
+  max-width: 20%;
+}
+
+
+.entry-content-partenaire p {
+  text-align: center;              
+}
+
+.entry-headline-partenaire {
+  font-size: 27px;
+  line-height: 100%;
+  margin: 50px 0 0 3px;
+  padding-top: 50px;
+  position: relative;
+  z-index: 50;   
+  text-align: center;
+  border-top: 2px solid #b82c24;
+  color:#b82c24;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}  
+
+.entry-content-partenaire{ 
+    margin-top: 20px;
+}
+
+#content-partenaire {
+  margin: 0;
+  width: 100%;  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p1partenaire {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.texte1partenaire h2 {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.texte1partenaire p {
+    position: relative;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.p2partenaire {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #b82c24;
+}
+
+.texte2partenaire h1 {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+.texte2partenaire p {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+#content-contact {
+    position: relative;
+    width: 100%; 
+}
+
+.entry-content-contact{
+    margin-left: 10%;
+    margin-right: 10%;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.entry-content-media{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#content-media {
+    margin: 0;
+    width: 100%;         
+}
+
 
 
 .page-template-template-full-width-php #container #content,
@@ -612,55 +932,111 @@ div.header-content::after, div.slide::after {
   width: 100%;                  
 }
 
-.content-headline-equipe img {
-  margin: auto;
-  max-width: 50%;                 
-}
-
-.entry-content-equipe p {
-  text-align: center;                
-}
-
-.content-headline-partenaire img {
-  margin: auto;
-  max-width: 50%;
-}
-
-.entry-content-partenaire p {
-  text-align: center;              
-}
-
-.entry-headline {
-  background: left 50% repeat-x url(images/pattern-headline.png);
-  color: black;
-  font-size: 27px;
-  line-height: 100%;
-  margin: 0 0 3px;
+#content-equipe {   /*titre image*/
   position: relative;
-  z-index: 50;                                  
-}  
+  margin-bottom: 50px;
+  width: 100%; 
+  height: auto;
+}
+
+.content-headline-equipe  { /*titre image*/
+    position: relative;
+    text-align: center; 
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 20px;
+} 
+
 
 .entry-headline-equipe {
 /*  background: left 50% repeat-x url(images/pattern-headline.png);  */ /* image rayure côté titre*/ 
-  color: black;
-  font-size: 27px;
-  line-height: 100%;
-  margin: 0 0 3px;
-  position: relative;
-  z-index: 50;   
-  text-align: center;
+    position: relative;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 26px;
+    color:#b82c24;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
 }  
 
-.entry-headline-partenaire {
-/*  background: left 50% repeat-x url(images/pattern-headline.png);  */ /* image rayure côté titre*/ 
+.image-equipe {  /* image*/
+    position: relative;
+    margin: auto;
+    max-width: 70%; 
+    height: auto;
+}
+
+.entry-content-equipe {   
+    position: relative;
+    text-align: center; 
+    max-width: 100%; 
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.entry-content-equipe img{   
+    width: 40%;
+}
+
+.entry-content-equipe p {   /*légende image*/
+    position: relative;
+  text-align: center;     
+    max-width: 100%; 
+    height: auto;
+}
+
+.p1equipe {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.img1equipe {
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.p1equipe h2 {
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 26px;
+}
+
+.texte1equipe p {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 110px;
+}
+
+
+
+
+.entry-headline {
+/*  background: left 50% repeat-x url(images/pattern-headline.png);*/
   color: black;
-  font-size: 27px;
+  font-size: 35px;
   line-height: 100%;
   margin: 0 0 3px;
   position: relative;
-  z-index: 50;   
-  text-align: center;
+  z-index: 50;  
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom: 3px solid #b82c24;
 }  
+
+
+
+
 
 .blog .entry-headline,
 .home-latest-posts .entry-headline {
@@ -1080,7 +1456,7 @@ div.header-content::after, div.slide::after {
   width: 100%;             
 }
 .sidebar-widget .sidebar-headline {
-  background: left 50% repeat-x url(images/pattern-sidebar.png);
+/*  background: left 50% repeat-x url(images/pattern-sidebar.png);*/
   color: #333333;
   font-family: Montserrat; 
   font-size: 19px;
@@ -1180,7 +1556,7 @@ div.header-content::after, div.slide::after {
   z-index: 50;                
 }
 #footer .footer-widget-area-3 {
-  margin-right: 0;                              
+  margin-right: 0; 
 }
 .footer-widget {
   float: left;
@@ -1301,7 +1677,7 @@ textarea {
 }
 input[type="submit"],
 input[type="reset"] {
-  background: #6abfec;
+  background: #cd2121;
   border: none;
   border-radius: 0 !important;
   box-shadow: none;
@@ -1322,7 +1698,7 @@ input[type="reset"] {
 }
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: #cd2121;                    
+  background-color: #f6b320;                    
 }
 #searchform .searchform-wrapper {
   height: 31px;
@@ -1522,24 +1898,24 @@ input[type="reset"]:hover {
   html #wrapper #main-content,
   body .header-content,
   body .menu-box, body #footer {
-    width: 95%;
+    width: 100%;
 }
   body .site-title,
   body .site-description,
   body .header-logo {
-    max-width: 740px;              
+    max-width: 100%;              
 }
   html #wrapper .sticky-nav {
     max-width: 100%;
 }
   body #content {
-    width: 628px;
+    width: 100%;
 }
   body #sidebar {
     width: 300px;
 }
   body .footer-widget-area {
-    width: 300px;
+    width: 100%;
 }
 .slide{
 display: none;
@@ -1567,6 +1943,256 @@ display: none;
     margin: auto;
     z-index: 1000;
 }
+   
+.p1partenaire {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+    
+.img1 {
+display: none;
+}
+.img2 {
+display: none;
+}
+.img3 {
+display: none;
+}
+.img4 {
+display: none;
+}
+
+.img1projet {
+display: none;
+}
+.img2projet {
+display: none;
+}
+.img3projet {
+display: none;
+}
+   
+
+.p1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.texte1 h2 {
+    position: relative;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.p2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.texte2 h1 {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.texte2 p {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+.p3 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.texte3 h1 {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.texte3 p {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.p4 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.texte4 h1 {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.texte4 p {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+    
+
+.p1projet {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.texte1projet h1 {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.texte1projet p {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.p2projet {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    background-color: #b82c24;
+}
+
+.texte2projet h1 {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+.texte2projet p {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: white;
+}
+
+
+.p3projet {
+    position: relative;
+    width: 100%;
+    height: 285px;
+}
+
+.texte3projet h1 {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.texte3projet p {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.content-headline-partenaire img {
+  margin: auto;
+  max-width: 20%;
+}
+
+
+.entry-content-partenaire p {
+  text-align: center;              
+}
+
+.entry-headline-partenaire {
+  font-size: 27px;
+  line-height: 100%;
+  margin: 50px 0 0 3px;
+  padding-top: 50px;
+  position: relative;
+  z-index: 50;   
+  text-align: center;
+  border-top: 2px solid #b82c24;
+  color:#b82c24;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}  
+
+.entry-content-partenaire{ 
+    margin-top: 20px;
+}
+
+#content-partenaire {
+  margin: 0;
+  width: 100%;  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p1partenaire {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.texte1partenaire h2 {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.texte1partenaire p {
+    position: relative;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.p2partenaire {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #b82c24;
+}
+
+.texte2partenaire h1 {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+.texte2partenaire p {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
     
 }
 
@@ -1575,10 +2201,7 @@ display: none;
     max-width: 100%;
     width: 100%;                         
 }
-  #wrapper #container #main-content {
-    padding: 28px 5% 10px;
-    width: 90%;              
-}
+
   #wrapper #content,
   #wrapper .top-navigation ul {
     max-width: 100%;
@@ -1643,10 +2266,11 @@ display: none;
   #wrapper #main-content .js-masonry .sticky {
     width: 50%;                          
 } 
+    
   #wrapper #container #footer {
     background-image: none;
-    padding: 35px 5% 10px; 
-    width: 100%;                  
+    padding: 30px 5% 10px; 
+    width: 90%;                  
 }
   #footer .footer-widget-area {
     margin: 0;
@@ -1712,6 +2336,230 @@ display: none;
     z-index: 1000;
 }
     
+    
+#content-accueil {
+  margin: 0;
+  width: 100%;         
+}
+
+.p1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.texte1 h2 {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+    font-size: 28px;
+}
+
+.p2 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.texte2 h1 {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.texte2 p {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+
+.p3 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.texte3 h1 {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.texte3 p {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.p4 {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.texte4 h1 {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.texte4 p {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+}
+    
+.entry-content-projet{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#content-projet {
+  margin: 0;
+  width: 100%;         
+}
+
+.p1projet {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.texte1projet h1 {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.texte1projet p {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.p2projet {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    background-color: #b82c24;
+}
+
+.texte2projet h1 {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+    padding-top: 70px;
+    color: white;
+}
+
+.texte2projet p {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+    color: white;
+}
+
+
+.p3projet {
+    position: relative;
+    width: 100%;
+    height: 285px;
+}
+
+.texte3projet h1 {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+    padding-top: 50px;
+}
+
+.texte3projet p {
+    position: relative;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.content-headline-partenaire img {
+  margin: auto;
+  max-width: 20%;
+}
+
+
+.entry-content-partenaire p {
+  text-align: center;              
+}
+
+.entry-headline-partenaire {
+  font-size: 27px;
+  line-height: 100%;
+  margin: 50px 0 0 3px;
+  padding-top: 50px;
+  position: relative;
+  z-index: 50;   
+  text-align: center;
+  border-top: 2px solid #b82c24;
+  color:#b82c24;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}  
+
+.entry-content-partenaire{ 
+    margin-top: 20px;
+}
+
+#content-partenaire {
+  margin: 0;
+  width: 100%;  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p1partenaire {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.texte1partenaire h2 {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.texte1partenaire p {
+    position: relative;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.p2partenaire {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #b82c24;
+}
+
+.texte2partenaire h1 {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+.texte2partenaire p {
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    color: white;
+}
+
+
 
 }
 

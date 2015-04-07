@@ -10,7 +10,7 @@ Template Name: Actu
      <div class="content-headline">
       <h1 class="entry-headline"><span class="entry-headline-text"><?php the_title(); ?></span></h1>
 
-    </div>
+     </div>
   
 <?php $loop = new WP_Query( array( 'post_type' => 'actualites') );
     if ( $loop->have_posts() ) :
@@ -32,6 +32,7 @@ Template Name: Actu
 <?php } ?>
     </div>   
   </div> <!-- end of content -->
+</div>
 </div>
 <?php if ($happenstance_options_db['happenstance_display_sidebar'] != 'Hide') { ?>
 <?php get_sidebar(); ?>
